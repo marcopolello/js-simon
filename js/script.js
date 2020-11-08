@@ -22,7 +22,7 @@ alert("memorizza questi numeri: " + numeri);
 console.log(numeri + "<-- numeri da memorizzare");
 //da qui partono 30 secondi di tempo
 
-setTimeout(myFunction, 30000);
+setTimeout(myFunction, 10000);
 /* mi serve una funzione che chieda all'utente 5 prompt e che esegua dei controlli,
 passati i controlli li salverà in un array */
 
