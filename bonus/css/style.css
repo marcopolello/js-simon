@@ -1,0 +1,74 @@
+/* regole generali */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  /* debug */
+  /* background-color: blue; */
+  /* debug */
+}
+/* fine regole generali */
+
+.gamingpad{
+  position: relative;
+  display: flex;
+  margin: 50px auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  /* debug */
+  width: 600px;
+  height: 600px;
+  /* background-color: green; */
+  border-radius: 50%;
+  /* debug */
+}
+.pointspad{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  /* debug */
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  border-radius: 50%;
+  /* debug */
+}
+.padtopsx{
+  height: 50%;
+  width: 50%;
+  border-radius: 100% 0 0 0;
+  /* debug */
+  background-color: yellow;
+  /* debug */
+}
+.padtopdx{
+  border-radius: 0 100% 0 0;
+  height: 50%;
+  width: 50%;
+  /* debug */
+  background-color: blue;
+  /* debug */
+}
+.padbotdx{
+  border-radius: 0 0 0 100%;
+  height: 50%;
+  width: 50%;
+  /* debug */
+  background-color: red;
+  /* debug */
+}
+.padbotsx{
+  border-radius: 0 0 100% 0;
+  height: 50%;
+  width: 50%;
+  /* debug */
+  background-color: green;
+  /* debug */
+}
