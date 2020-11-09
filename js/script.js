@@ -42,7 +42,7 @@ function myFunction() {
       alert("numero già inserito");
       tentativi++;
       console.log("primo caso");
-    } else if (numeri.includes(input)) {
+    } else if (numeri.includes(input)) { //se il numero è corretto
       corretti.push(input);
       inseriti.push(input);
       ricordati++;
@@ -51,7 +51,7 @@ function myFunction() {
       alert("inserisci un numero da 1 a 100");
       tentativi++;
       console.log("terzo caso");
-    } else {
+    } else { // se il numero è sbagliato
       inseriti.push(input);
       sbagliati.push(input);
       punteggio--;
